@@ -1,8 +1,7 @@
+import RootLayout from "./layout/RootLayout";
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+  return <RootLayout>App</RootLayout>;
+};
 
-export default App
+export default App;
