@@ -1,6 +1,11 @@
+import Navbar from "../components/Navbar";
+
 const RootLayout = ({ children }) => {
   return (
-    <main className="w-full min-h-screen p-5 bg-gray-100">{children}</main>
+    <div className="container mx-auto min-h-screen py-7">
+      <Navbar />
+      <main className="p-5">{children}</main>
+    </div>
   );
 };
 
